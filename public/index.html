@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Залиш свої дані</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; }
+    form { max-width: 400px; margin: auto; display: flex; flex-direction: column; gap: 1rem; }
+    input, button { padding: 0.75rem; font-size: 1rem; }
+  </style>
+  <script defer src="page1.js"></script>
+</head>
+<body>
+<form id="contact-form">
+  <input type="text" id="phone" name="phone" placeholder="Номер телефону" required />
+  <input type="email" id="email" name="email" placeholder="Email" required />
+  <button type="submit">Відправити</button>
+</form>
+</body>
+</html>
